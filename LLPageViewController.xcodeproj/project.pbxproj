@@ -7,14 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B6AC54621D600BD00E27306 /* LLPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6AC54521D600BD00E27306 /* LLPageTabView.swift */; };
+		0B776DF421D4D3DB004828D8 /* LLPageTapContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B776DF321D4D3DB004828D8 /* LLPageTapContainer.swift */; };
+		0BAE39DC22DC1D33003E35EB /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAE39DB22DC1D33003E35EB /* Macro.swift */; };
+		0BAE39DE22DC1D72003E35EB /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BAE39DD22DC1D72003E35EB /* UIColorExtension.swift */; };
 		0BC73A4821D4824A00981D57 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC73A4721D4824A00981D57 /* AppDelegate.swift */; };
 		0BC73A4A21D4824A00981D57 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC73A4921D4824A00981D57 /* ViewController.swift */; };
 		0BC73A4D21D4824A00981D57 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC73A4B21D4824A00981D57 /* Main.storyboard */; };
 		0BC73A4F21D4824B00981D57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC73A4E21D4824B00981D57 /* Assets.xcassets */; };
 		0BC73A5221D4824B00981D57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC73A5021D4824B00981D57 /* LaunchScreen.storyboard */; };
+		0BC73A5A21D4A1D500981D57 /* LLPageTabMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC73A5921D4A1D500981D57 /* LLPageTabMenuView.swift */; };
+		9E37098E5BE68120173F9F1F /* Pods_LLPageViewController.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB1CECB2E26F439657AAB3F /* Pods_LLPageViewController.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B6AC54521D600BD00E27306 /* LLPageTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLPageTabView.swift; sourceTree = "<group>"; };
+		0B776DF321D4D3DB004828D8 /* LLPageTapContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLPageTapContainer.swift; sourceTree = "<group>"; };
+		0BAE39DB22DC1D33003E35EB /* Macro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		0BAE39DD22DC1D72003E35EB /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
 		0BC73A4421D4824A00981D57 /* LLPageViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LLPageViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BC73A4721D4824A00981D57 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0BC73A4921D4824A00981D57 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +32,10 @@
 		0BC73A4E21D4824B00981D57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC73A5121D4824B00981D57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC73A5321D4824B00981D57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC73A5921D4A1D500981D57 /* LLPageTabMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LLPageTabMenuView.swift; sourceTree = "<group>"; };
+		94C9DFF32CE544FCA17D7358 /* Pods-LLPageViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLPageViewController.release.xcconfig"; path = "Pods/Target Support Files/Pods-LLPageViewController/Pods-LLPageViewController.release.xcconfig"; sourceTree = "<group>"; };
+		CDB1CECB2E26F439657AAB3F /* Pods_LLPageViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LLPageViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80F7B2600147E853ACE4AA5 /* Pods-LLPageViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LLPageViewController.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LLPageViewController/Pods-LLPageViewController.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +43,39 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E37098E5BE68120173F9F1F /* Pods_LLPageViewController.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0BAE39DF22DC1DB9003E35EB /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0BAE39DB22DC1D33003E35EB /* Macro.swift */,
+				0BAE39DD22DC1D72003E35EB /* UIColorExtension.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0BAE39E022DC1DC2003E35EB /* LLPageTabView */ = {
+			isa = PBXGroup;
+			children = (
+				0B776DF321D4D3DB004828D8 /* LLPageTapContainer.swift */,
+				0BC73A5921D4A1D500981D57 /* LLPageTabMenuView.swift */,
+				0B6AC54521D600BD00E27306 /* LLPageTabView.swift */,
+			);
+			path = LLPageTabView;
+			sourceTree = "<group>";
+		};
 		0BC73A3B21D4824A00981D57 = {
 			isa = PBXGroup;
 			children = (
 				0BC73A4621D4824A00981D57 /* LLPageViewController */,
 				0BC73A4521D4824A00981D57 /* Products */,
+				E6E2376DAA68EBDB69EDE8BC /* Pods */,
+				220B83DA518A89B01F17924D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +90,33 @@
 		0BC73A4621D4824A00981D57 /* LLPageViewController */ = {
 			isa = PBXGroup;
 			children = (
+				0BAE39DF22DC1DB9003E35EB /* Utils */,
+				0BAE39E022DC1DC2003E35EB /* LLPageTabView */,
 				0BC73A4721D4824A00981D57 /* AppDelegate.swift */,
 				0BC73A4921D4824A00981D57 /* ViewController.swift */,
 				0BC73A4B21D4824A00981D57 /* Main.storyboard */,
-				0BC73A4E21D4824B00981D57 /* Assets.xcassets */,
 				0BC73A5021D4824B00981D57 /* LaunchScreen.storyboard */,
+				0BC73A4E21D4824B00981D57 /* Assets.xcassets */,
 				0BC73A5321D4824B00981D57 /* Info.plist */,
 			);
 			path = LLPageViewController;
+			sourceTree = "<group>";
+		};
+		220B83DA518A89B01F17924D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB1CECB2E26F439657AAB3F /* Pods_LLPageViewController.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E6E2376DAA68EBDB69EDE8BC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E80F7B2600147E853ACE4AA5 /* Pods-LLPageViewController.debug.xcconfig */,
+				94C9DFF32CE544FCA17D7358 /* Pods-LLPageViewController.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +126,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0BC73A5621D4824B00981D57 /* Build configuration list for PBXNativeTarget "LLPageViewController" */;
 			buildPhases = (
+				0F90A837074CF390C451C7C2 /* [CP] Check Pods Manifest.lock */,
 				0BC73A4021D4824A00981D57 /* Sources */,
 				0BC73A4121D4824A00981D57 /* Frameworks */,
 				0BC73A4221D4824A00981D57 /* Resources */,
+				7D0E1610EAE1B7EA65407DDD /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,13 +187,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F90A837074CF390C451C7C2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LLPageViewController-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7D0E1610EAE1B7EA65407DDD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-LLPageViewController/Pods-LLPageViewController-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
+				"${BUILT_PRODUCTS_DIR}/Then/Then.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Then.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-LLPageViewController/Pods-LLPageViewController-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0BC73A4021D4824A00981D57 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B776DF421D4D3DB004828D8 /* LLPageTapContainer.swift in Sources */,
+				0BAE39DE22DC1D72003E35EB /* UIColorExtension.swift in Sources */,
+				0BC73A5A21D4A1D500981D57 /* LLPageTabMenuView.swift in Sources */,
+				0BAE39DC22DC1D33003E35EB /* Macro.swift in Sources */,
 				0BC73A4A21D4824A00981D57 /* ViewController.swift in Sources */,
 				0BC73A4821D4824A00981D57 /* AppDelegate.swift in Sources */,
+				0B6AC54621D600BD00E27306 /* LLPageTabView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +381,12 @@
 		};
 		0BC73A5721D4824B00981D57 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80F7B2600147E853ACE4AA5 /* Pods-LLPageViewController.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6229KYTQKY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LLPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -296,10 +401,12 @@
 		};
 		0BC73A5821D4824B00981D57 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94C9DFF32CE544FCA17D7358 /* Pods-LLPageViewController.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6229KYTQKY;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = LLPageViewController/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
